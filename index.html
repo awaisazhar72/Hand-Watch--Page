@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awessome/6.5.1/css/font-awessome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/1165876da6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="Logo">
+          <img src="images/logow.png" width="200px" />
+        </div>
+        <div class="menu">
+          <a href="">Home</a>
+          <a href="About.html">About</a>
+          <a href="Form/form.html">Contact</a>
+          <a href="#">Login</a>
+        </div>
+        <div class="shopping">
+          <img src="images/shopping.svg" />
+          <span class="quantity">0</span>
+        </div>
+        <div class="list"></div>
+      </nav>
+      <div class="Line">
+        <div class="Box1"></div>
+        <br />
+        <div class="Box2"></div>
+        <br />
+        <div class="Box3"></div>
+      </div>
+      <div class="Container">
+        <div class="left animate__animated animate__backInLeft">
+          <h1>Future<br /> IN Your Hand</h1>
+          <button>Order Now</button>
+        </div>
+        <div class="right animate__animated animate__backInRight">
+          <img src="images/wat3.png" />
+        </div>
+      </div>
+      <div class="icon animate__animated animate__fadeInUp">
+        <img src="images/icon1.png" />
+        <img src="images/icon2.png" />
+        <img src="images/icon3.png" />
+        <img src="images/icon4.png" />
+      </div>
+    </header>
+    <div class="card">
+      <h1>Card</h1>
+      <ul class="listCard"></ul>
+      <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+      </div>
+    </div>
+
+    <div class="container1">
+      <div class="row">
+        <div class="header animate__animated animate__rollIn">
+          <h1>Our Article</h1>
+        </div>
+        <div class="content">
+          <div class="Card animate__animated animate__slideInLeft">
+            <img src="images/Log1.jpg" width="300" height="300" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Perspiciatis eius inventore sint repudiandae quaerat atque nam
+              rerum autem ipsa.
+            </p>
+            <button class="cart-btn" onclick="addToCart(1, 300)">
+              Add to Cart $300
+            </button>
+          </div>
+          <div class="Card animate__animated animate__slideInUp">
+            <img src="images/Log2.jpg" width="300" height="300" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum,
+              aut porro nam facere provident perferendis in repudiandae
+              asperiores voluptates.
+            </p>
+            <button class="cart-btn" onclick="addToCart(2, 1000)">
+              Add to Cart $1000
+            </button>
+          </div>
+          <div class="Card animate__animated animate__slideInRight">
+            <img src="images/Log3.jpg" width="300" height="300" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              magnam praesentium vero consequatur doloremque iusto corrupti.
+            </p>
+            <button class="cart-btn" onclick="addToCart(3, 500)">
+              Add to Cart $500
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="fcontainer">
+        <div class="footer-content">
+          <h3>Contact us</h3>
+          <p>Contact us</p>
+          <p>Email: Awaisazhar72@gmail.com</p>
+          <p>Phone: 03001234567</p>
+          <p>Address : Allzone Technology</p>
+        </div>
+        <div class="footer-content">
+          <h3>Quick Link</h3>
+          <ul class="flist">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>Follow us</h3>
+          <ul class="social-icons">
+            <li>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

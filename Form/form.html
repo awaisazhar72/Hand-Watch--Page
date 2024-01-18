@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <label for="FName">First Name</label>
+        <input type="text" id="FName" name="firstName" placeholder="YourName" />
+        <label for="LName">Last Name</label>
+        <input type="text" id="LName" name="lastName" placeholder="Last Name" />
+        <label for="Email">Email</label>
+        <input type="text" id="Email" name="Email" placeholder="Email" />
+        <button onclick="callvalue()">Submit</button>
+      </form>
+    </div>
+    <script>
+      function callvalue() {
+        var FName = document.getElementById("FName").value;
+        console.log(FName);
+
+        var LName = document.getElementById("LName").value;
+        console.log(LName);
+
+        var Email = document.getElementById("Email").value;
+        console.log(Email);
+        document.write("Your FName is = " + FName + "<br>");
+        document.write("Your LName is = " + LName + "<br>");
+        document.write("Your Email is = " + Email + "<br>");
+      }
+    </script>
+  </body>
+</html>
